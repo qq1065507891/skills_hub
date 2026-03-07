@@ -1,0 +1,43 @@
+# FastAPI 核心
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# 数据库
+sqlalchemy==2.0.25
+alembic==1.13.1
+pymysql==1.1.0
+cryptography==42.0.0
+
+# Pydantic 和配置
+pydantic[email]==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# 认证和安全
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.6
+
+# HTTP 客户端
+httpx==0.26.0
+requests==2.31.0
+
+# 系统监控
+psutil==5.9.8
+
+# 缓存和队列
+redis==5.0.1
+celery==5.3.6
+
+# 代码质量工具
+black==23.12.1
+isort==5.13.2
+flake8==7.0.0
+mypy==1.8.0
+
+# 测试框架
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0
